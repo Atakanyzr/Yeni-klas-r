@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}    
+body{
+    background-image: url(elden-ring-BIG-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    height: 8vh;
+    width: 100%;
+    background-color: #222222;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.8s;
+}
+
+h2{
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+a:hover{
+color: #C83520;    
+}
+
+h2:hover{
+    color: #C83520;   
+}
+.content h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+.content h1{
+    font-size: 100px;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+.content h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: white; 
+}
+.content p{
+    max-width: 100%;
+    width: 480px;
+    color: white;
+    line-height: 1.8;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
